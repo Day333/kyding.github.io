@@ -1,26 +1,33 @@
 [
   {
-    "title": "AcaNova-X: A Modern and Elegant Academic Website Template",
-    "authors": "<strong>Your Name</strong>, Collaborator A, Collaborator B",
-    "venue": "CVPR 2025",
-    "year": "2025",
-    "highlight": "Oral",
+    "title": "Distilling Time Series Foundation Models for Efficient Forecasting",
+    "authors": "Yuqi Li*, <strong>Kuiye Ding*</strong>, Chuanguang Yang, Szu-Yu Chen, Yingli Tian",
+    "venue": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2026)",
+    "year": "2026",
+    "highlight": "CCF-B · * Equal contribution",
+    "thumbnail": "assets/publications/placeholder/paper-thumb.png",
+    "tags": []
+  }
+  {
+    "title": "TimeMosaic: Information-Density Guided Time Series Forecasting via Adaptive Granularity Patch and Segment-wise Decoding",
+    "authors": "<strong>Kuiye Ding</strong>, Fanda Fan, Chunyi Hou, Zheya Wang, Lei Wang, Zhengxin Yang, Jianfeng Zhan",
+    "venue": "AAAI Conference on Artificial Intelligence (AAAI)",
+    "year": "2026",
+    "highlight": "CCF-A · Core A · EI",
     "thumbnail": "assets/publications/placeholder/paper-thumb.png",
     "tags": [
-      { "text": "Paper", "link": "#" },
-      { "text": "Code", "link": "#" },
-      { "text": "Project Page", "link": "#" }
+      { "text": "Paper", "link": "https://arxiv.org/abs/2509.19406" }
     ]
   },
   {
-    "title": "Another Great Research Work on Machine Learning",
-    "authors": "Collaborator A, <strong>Your Name</strong>, Collaborator B",
-    "venue": "NeurIPS 2024",
-    "year": "2024",
-    "highlight": "Spotlight",
-    "thumbnail": "",
+    "title": "DualSG: A Dual-Stream Explicit Semantic-Guided Multivariate Time Series Forecasting Framework",
+    "authors": "<strong>Kuiye Ding</strong>, Fanda Fan, Yao Wang, Ruijie Jian, Xiaorui Wang, Luqi Gong, Yishan Jiang, Chunjie Luo, Jianfeng Zhan",
+    "venue": "ACM International Conference on Multimedia (ACM MM)",
+    "year": "2025",
+    "highlight": "CCF-A · Core A · EI",
+    "thumbnail": "assets/publications/placeholder/paper-thumb.png",
     "tags": [
-      { "text": "Paper", "link": "#" }
+      { "text": "Paper", "link": "https://dl.acm.org/doi/10.1145/3746027.3755458" }
     ]
-  }
+  },
 ]
