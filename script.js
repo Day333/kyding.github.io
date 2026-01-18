@@ -430,12 +430,17 @@ function getCCFRank(fullName, originalVenue) {
         v.includes('tmc') || v.includes('mobile computing') || 
         v.includes('aaai') || v.includes('neurips') || 
         v.includes('cvpr') || v.includes('iccv') || 
-        v.includes('infocom') || v.includes('jsac')) {
+        v.includes('infocom') || v.includes('jsac') ||
+        v.includes('acm mm') || v.includes('acmmm') || v.includes('multimedia')) {  // ✅ ACM MM
         return 'A';
     }
     
     // CCF-B
-    if (v.includes('icra')) {
+    if (
+        v.includes('icra') ||
+        v.includes('icassp') ||   // ✅ ICASSP
+        v.includes('acoustics, speech and signal processing')
+    ) {
         return 'B';
     }
     
@@ -446,6 +451,7 @@ function getCCFRank(fullName, originalVenue) {
     
     return null;
 }
+
 
 // Function to render news items
 function renderNewsItems(newsData, containerId) {
